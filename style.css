@@ -1,0 +1,24 @@
+  .index{
+    /* margin-top: 36px; */
+    background-image: url(background-img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+  }
+  nav{
+    background-color:#000000;
+    opacity: .6;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+  }
