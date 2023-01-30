@@ -54,6 +54,11 @@ nav a:hover{
  height: 180px;
  position: relative ;
 }
+.page2 i{
+  font-size: 35px;
+  color: #fff;
+  margin: 0 15px 10px;
+}
 .page2,p{
  text-align: center;
 }
@@ -71,13 +76,12 @@ nav a:hover{
 .page3 .txt{
   margin: 15px;
 }
-
+/* footer */
 footer{
   width: 100%;
-  height: 200px;
+  height: 50px;
   background-color: rgb(31, 30, 30);
 }
-footer i{
-  font-size: 35px;
-  color: aliceblue;
+footer p{
+  color: #fff;
 }
