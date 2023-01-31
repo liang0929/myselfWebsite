@@ -3,8 +3,6 @@ html{
 }
 /* 導覽列 */
 nav{
-  /* background-color:#000000;
-  opacity: .6; */
   text-align: right;
   position: fixed;
   top: 0;
@@ -24,7 +22,6 @@ nav a:hover{
 }
   /* 首頁 */
 .background{
-    /* margin-top: 36px; */
   background-image: url(background-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -54,17 +51,13 @@ nav a:hover{
  height: 180px;
  position: relative ;
 }
-.page2 i{
-  font-size: 35px;
-  color: #fff;
-  margin: 0 15px 10px;
-}
 .page2,p{
  text-align: center;
 }
 /* page3 */
 .page3{
   display:flex;
+  flex-wrap: wrap;
   align-content:center;
   justify-content:center;
 }
@@ -79,8 +72,21 @@ nav a:hover{
 /* footer */
 footer{
   width: 100%;
-  height: 50px;
+  height: 510px;
   background-color: rgb(31, 30, 30);
+}
+footer iframe{
+  margin: 20px;
+  height: 400px;
+  width: 400px;
+}
+footer .link{
+  display:inline;
+}
+footer i{
+  font-size: 35px;
+  color: #fff;
+  margin: 0 15px 10px;
 }
 footer p{
   color: #fff;
