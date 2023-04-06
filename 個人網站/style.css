@@ -20,9 +20,12 @@ nav a{
 nav a:hover{
   background-color: rgb(255, 136, 0);
 }
+nav:hover{
+  box-shadow: 0 5px 10px  #565656;
+}
   /* 首頁 */
 .background{
-  background-image: url(background-img.jpg);
+  background-image: url(pictures/background-img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -72,21 +75,18 @@ nav a:hover{
 /* footer */
 footer{
   width: 100%;
-  height: 510px;
+  height: 20%;
   background-color: rgb(31, 30, 30);
 }
-footer iframe{
-  margin: 20px;
-  height: 400px;
-  width: 400px;
-}
 footer .link{
-  display:inline;
+  display:flex;
 }
 footer i{
   font-size: 35px;
   color: #fff;
-  margin: 0 15px 10px;
+  margin: 10px 15px 10px;
+  justify-content: center;
+  text-align:center;
 }
 footer p{
   color: #fff;
